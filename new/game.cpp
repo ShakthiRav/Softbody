@@ -1,10 +1,11 @@
 #include <iostream>
 #include <chrono>
 #include <SFML/Graphics.hpp>
-#include <shape.hpp>
-#include <point.hpp>
-#include <shape.hpp>
-#include <spring.hpp>
+#include "shape.hpp"
+#include "point.hpp"
+#include "shape.hpp"
+#include "spring.hpp"
+
 void update (double dt) {
   double minTimeStep = 0.0005, timeStep;
   while (1) {
